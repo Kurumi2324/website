@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>Group Introduction</title>
+    <link rel ="icon" href="images/favicon.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Web Page</h1>
-    <p>This is a simple HTML page.</p>
+    <nav>
+        <a href="index.html">
+            <img src="images/favicon.jpg" alt="Group Logo">
+        </a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section id = "brief">
+            <h1>Welcome to Our Group Page</h1>
+            <h2>About Us</h2>
+            <p>We are a diverse group of individuals passionate about technology and innovation. Our mission is to collaborate, learn, and create impactful projects together.</p>
+        </section>
+        <section id="team-brief"> 
+            <h2>Our Team</h2>
+            <ul id="team-list">
+                <li onclick = "window.location.href='member1.html'">
+                    <img src="images/empty_profile.png" alt="Alice's Photo">
+                    <div class = "profile-desc">
+                        <p>Name: <strong>Alice</strong></p>
+                        <p>ID: <strong>123</strong></p>
+                        <p>Alice is a software engineer with a love for open-source projects and community building.</p>
+                    </div>
+                </li>
+                <li onclick = "window.location.href='member2.html'">
+                    <img src="images/empty_profile.png" alt="Bob's Photo">
+                    <div class = "profile-desc">
+                        <p>Name: <strong>Bob</strong></p>
+                        <p>ID: <strong>456</strong></p>
+                        <p>Bob is a data scientist who enjoys turning data into actionable insights.</p>
+                    </div>
+                </li>
+                <li onclick = "window.location.href='member3.html'">
+                    <img src="images/empty_profile.png" alt="Charlie's Photo">
+                    <div class = "profile-desc">
+                        <p>Name: <strong>Charlie</strong></p>
+                        <p>ID: <strong>789</strong></p>
+                        <p>Charlie is a UX designer focused on creating intuitive and user-friendly interfaces.</p>
+                    </div>
+                </li>
+                <li onclick = "window.location.href='member4.html'">
+                    <img src="images/empty_profile.png" alt="Diana's Photo">
+                    <div class = "profile-desc">
+                        <p>Name: <strong>Diana</strong></p>
+                        <p>ID: <strong>101</strong></p>
+                        <p>Diana is a project manager who ensures that our projects are completed on time and within scope.</p>
+                    </div>
+                </li>
+                <li onclick = "window.location.href='member5.html'">
+                    <img src="images/empty_profile.png" alt="Edward's Photo">
+                    <div class = "profile-desc">
+                        <p>Name: <strong>Edward</strong></p>
+                        <p>ID: <strong>202</strong></p>
+                        <p>Edward is a cybersecurity expert dedicated to protecting our digital assets.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class = "footer-logo">
+            <img src="images/favicon.jpg" alt="Group Logo">
+        </div>
+        <div class = "Pages">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </footer>
 </body>
+</html>

@@ -1,0 +1,25 @@
+.member-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--c2);
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.Misc {
+    margin-top: 30px;
+    padding: 1rem;
+    background-color: var(--c2);
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
