@@ -1,4 +1,21 @@
 //temp script file
 
-document.getElementById("home-btn").addEventListener("click", highLightHome());
-document.getElement
+document.querySelectorAll(".home-btn").addEventListener("click", highlightHome());
+document.querySelectorAll(".about-btn).addEventListener("click", highlightAbout());
+document.querySelectorAll(".service-btn").addEventListener("click", highlightService());
+document.querySelectorAll(".contact-btn).addEventListener("click", highlightContact());
+
+const highlightHome => () = {
+    const nav = document.querySelector("nav");
+    nav.querySelector(".home-btn").styles.color = "red";
+    nav.querySelector(".about-btn").styles.color = "white";
+    nav.querySelector(".contact-btn").styles.color = "white";
+    nav.querySelector(".service-btn").styles.color = "white";
+    
+    const foot = document.querySelector("footer");
+    foot.querySelector(".home-btn").style.color = "red";
+    foot.querySelector(".about-btn").styles.color = "white";
+    foot.querySelector(".contact-btn").styles.color = "white";
+    foot.querySelector(".service-btn").styles.color = "white";
+}
+
