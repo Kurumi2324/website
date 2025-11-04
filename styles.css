@@ -36,3 +36,83 @@ content {
    
    display: flex;
 }
+
+.register-form {
+   display: flex;
+   flex-direction: column;
+   
+   height: 100%;
+   width: 30%;
+}
+
+content h2 {
+   background: linear-gradient(to bottom, yellow, white);
+   color: black;
+   text-align: center;
+}
+
+input {
+   width: 90%;
+   height: 15%;
+   border: 1px;
+   background-color: white;
+   color: black;
+}
+
+.update-btn, .reg-btn, .edit-btn, .delete-btn {
+   height: 50px;
+   width: 150px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.update-btn {
+   background-color: green;
+}
+
+.update-btn, .edit-btn {
+   background-color: blue;
+}
+
+.delete-btn {
+   background-color: red;
+}
+
+.col-headers {
+   /*display: grid;*/
+   /*grid-template-columns: 1fr 3fr 5fr 2fr;*/
+   display: flex;
+   justify-content: space-around;
+   
+   width : 100%
+   height: 20%
+}
+
+ul {
+   width: 100%;
+   height: 80%;
+}
+
+li {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.cur-list {
+   display: flex;
+   flex-direction: column;
+   
+   height: 100%;
+   width: 70%;
+}
+
+footer {
+   width: 100%
+   height: 150px(
+   
+   background-color: lightgray;
+}
+
